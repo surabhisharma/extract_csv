@@ -1,7 +1,7 @@
 import csv
 import sys
 import json
-
+# command line argument
 number = int(sys.argv[1])
 csvfile = open('erosnow.csv', 'r')
 jsonfile = open('file.json', 'w')
